@@ -9,6 +9,7 @@ For OSX, you'll need to compile the shared library (libxformd.so).
 
 ```
 cd/xform_double
+make clean
 make
 make shared
 ```

@@ -74,7 +74,7 @@ libxformd.a: ${OBJECTS}
 
 shared:
 	${G95} ${FLAGS} -shared ${sources} -o libxformd.so -fPIC
-
+	cp libxformd.so $(ODIR)
 	
 
 .f95.o:
